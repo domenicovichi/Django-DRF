@@ -1,5 +1,5 @@
 ---
-description: steps to create a new project
+description: <i>steps to create a new project</i>
 ---
 
 # Django project
