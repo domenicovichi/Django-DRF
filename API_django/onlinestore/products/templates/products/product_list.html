@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Prodotti</title>
+</head>
+<body>
+    {% for product in object_list %}
+        <p>Prodotto: {{product.name}}</p>
+        <p>Produttore: {{product.manufacturer}}</p>
+        <p>Quantità: {{product.quantity}}</p>
+    {% endfor %}
+</body>
+</html>
