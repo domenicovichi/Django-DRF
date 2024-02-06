@@ -90,3 +90,16 @@ http http://localhost:8000/api/user/ "Authorization: Token API_KEY_HERE"
 ```
 
 \
+Q query:
+
+```
+from django.db.models import Q
+```
+
+```python
+query=Q(pk__isnull=False,active=True,processed=processed
+query &= Q(page__in=filter.filters['page_id'])
+query &= ~Q(page__in=filter.filters['page_id'])  query whit NOT
+
+```
+
